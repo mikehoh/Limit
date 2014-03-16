@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery Limit plugin example</title>
+  <meta name="description" content="jQuery Limit plugin example">
+  <meta name="author" content="Michael Hohlovich">
+  <script src="js/jquery.js"></script>
+  <script src="../js/jquery.limit.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('#text').limit({
+        chars: 200,
+        counter: "#result",
+        backendValidation: true,
+        warning: 10
+      });
+      $('#text2').limit({
+        chars: 10,
+        counter: "#result2",
+        warning: 3
+      });
+    });
+  </script>
+  <style type="text/css">
+    .warn {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <textarea id="text" rows="5"></textarea>
+  <div id="result"></div>
+  <br />
+  <input type="text" id="text2" />
+  <div id="result2"></div>
+</body>
+</html>
