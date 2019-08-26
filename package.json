@@ -1,0 +1,28 @@
+{
+  "name": "jquery_limit",
+  "version": "1.1.1",
+  "description": "jQuery plugin that limit characters quantity in text inputs or textareas. Also it has decreasing char counter.",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikehoh/Limit.git"
+  },
+  "keywords": [
+    "jquery",
+    "textarea",
+    "limit",
+    "characters"
+  ],
+  "author": "mikehoh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikehoh/Limit/issues"
+  },
+  "homepage": "https://github.com/mikehoh/Limit#readme"
+}

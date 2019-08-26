@@ -1,4 +1,4 @@
-Limit v1.1
+Limit v1.1.1
 =====
 
 Limit - jQuery plugin that limit characters quantity in text inputs or textareas. Also it has decreasing char counter.
