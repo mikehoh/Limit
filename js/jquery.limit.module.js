@@ -35,7 +35,7 @@ export default function() {
 		function countChars(text, countRule) {
 			var count = 0;
 			var lines = 0;
-			$.each(text, function(i,v) {
+			text.split('').forEach(function(v) {
 				count += 1;
 				if ((v.charCodeAt(0) == 10) && (countRule === true)) {
 					count += 1;

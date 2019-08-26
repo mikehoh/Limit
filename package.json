@@ -1,8 +1,9 @@
 {
-  "name": "@mikehoh/limit",
-  "version": "1.1.1",
+  "name": "jquery_limit",
+  "version": "1.1.2",
   "description": "jQuery plugin that limit characters quantity in text inputs or textareas. Also it has decreasing char counter.",
-  "main": "index.js",
+  "main": "js/jquery.limit.js",
+  "module": "js/jquery.limit.module.js",
   "directories": {
     "example": "example"
   },
